@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "63a917f565cd947a04ecbf881f9bb5e7",
+    "content-hash": "791f70a0b9ea1aef72311f358f6eedfb",
     "packages": [
         {
             "name": "aura/installer-default",
