@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a07d40c7ae156e9a24c07c9b7f59d320",
-    "content-hash": "6fbbec7f17a5ceaf12c61a664672ff31",
+    "hash": "63a917f565cd947a04ecbf881f9bb5e7",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -285,6 +284,46 @@
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
             "time": "2015-06-10 10:35:13"
+        },
+        {
+            "name": "holt59/cakephp3-bootstrap-helpers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Holt59/cakephp3-bootstrap-helpers.git",
+                "reference": "e4fad5e81b64f4e6438ca5ef5a3245e77df1f77e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Holt59/cakephp3-bootstrap-helpers/zipball/e4fad5e81b64f4e6438ca5ef5a3245e77df1f77e",
+                "reference": "e4fad5e81b64f4e6438ca5ef5a3245e77df1f77e",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bootstrap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "description": "Bootstrap Helpers for CakePHP 3.0",
+            "keywords": [
+                "bootstrap",
+                "cakephp"
+            ],
+            "time": "2016-01-26 11:43:23"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1258,6 +1297,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "holt59/cakephp3-bootstrap-helpers": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,

@@ -201,3 +201,6 @@ DispatcherFactory::add('ControllerFactory');
  */
 Type::build('date')->useLocaleParser();
 Type::build('datetime')->useLocaleParser();
+
+//helper Bootstrap
+Plugin::load('Bootstrap');
